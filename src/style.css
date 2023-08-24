@@ -29,11 +29,21 @@ li {
     background-color:var(--darkTeal);
     display:flex;
     flex-direction:row;
+    justify-content:space-between;
 }
 
 #mainMenu{
     display:flex;
-    flex-direction:rox;
+    flex-direction:row;
+    font-size:28px;
+    font-weight:600;
+    align-self: flex-end;
+    margin:0px;
+    color:var(--red)
+}
+
+li {
+    margin:8px;
 }
 
 #mainContent{
