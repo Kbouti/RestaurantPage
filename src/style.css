@@ -3,6 +3,9 @@
     padding:0%;
 }
 
+
+
+
 #mainContain{
     height: 100vh;
     width: 100vw;
@@ -16,13 +19,13 @@ li {
     list-style: none;
 }
 
-#header{
+#mainHeader{
     background-color:#8bbeb2;
     display:flex;
     flex-direction:row;
 }
 
-#menu{
+#mainMenu{
     display:flex;
     flex-direction:rox;
 }
@@ -40,4 +43,10 @@ li {
 #footer ul, #footer div{
     display:flex;
     flex-direction: row;
+}
+
+#subMenu{
+    display:flex;
+    flex-direction:row;
+    background-color: #a2cbc1;
 }
