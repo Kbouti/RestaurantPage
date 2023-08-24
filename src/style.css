@@ -29,15 +29,14 @@ li {
     background-color:var(--darkTeal);
     display:flex;
     flex-direction:row;
-    justify-content:space-between;
+    justify-content:space-around;
 }
 
-#mainMenu{
-    display:flex;
-    flex-direction:row;
+.headerItem{
     font-size:28px;
     font-weight:600;
-    align-self: flex-end;
+    align-self: center;
+    
     margin:0px;
     color:var(--red)
 }
@@ -65,4 +64,7 @@ li {
     display:flex;
     flex-direction:row;
     background-color: var(--lightTeal);
+    justify-content:flex-end;
+    color:var(--red)
+
 }
