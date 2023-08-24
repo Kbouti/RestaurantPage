@@ -1,1 +1,1 @@
-(()=>{let o=prompt("What is your name?");console.log(`Hello ${o}, how can I serve you today?`)})();
+console.log("Welcome to the console of the pizza website of the Kevdawg");

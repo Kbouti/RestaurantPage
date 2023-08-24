@@ -1,7 +1,1 @@
-const logSomething = () =>{
-    let name = prompt(`What is your name?`);
-
-    console.log(`Hello ${name}, how can I serve you today?`)
-}
-
-logSomething();
+console.log(`Welcome to the console of the pizza website of the Kevdawg`);
