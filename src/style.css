@@ -7,6 +7,9 @@
     height: 100vh;
     width: 100vw;
     background-color: #18314f;
+    display:flex;
+    flex-direction:column;
+
 }
 
 li {
@@ -14,5 +17,27 @@ li {
 }
 
 #header{
-    background-color:#8bbeb2
+    background-color:#8bbeb2;
+    display:flex;
+    flex-direction:row;
+}
+
+#menu{
+    display:flex;
+    flex-direction:rox;
+}
+
+#mainContent{
+    flex-grow:1;
+}
+
+#footer{
+    display:flex;
+    flex-direction: row;
+
+}
+
+#footer ul, #footer div{
+    display:flex;
+    flex-direction: row;
 }
