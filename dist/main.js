@@ -1,1 +1,1 @@
-console.log("Welcome to the console of the pizza website of the Kevdawg");
+console.log("Welcome to the console of the pizza website of the Kevdawg"),(()=>{const e=document.querySelector("#content"),n=document.createElement("div");t.id="mainContain",e.appendChild(n);const t=document.createElement("div");t.id="mainHeader",n.appendChild.mainHeaderDiv;const d=document.createElement("div");d.classList.add("headerItem"),d.innerHTML="(215)-327-1557",t.appendChild(d)})();
