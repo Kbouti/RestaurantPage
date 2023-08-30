@@ -10,6 +10,7 @@
     margin:0%;
     padding:0%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background-color: #008D44; */
 }
 
 
@@ -83,6 +84,13 @@ li {
 #counterPizza {
     height:30vh
 }
+
+
+.test{
+    color:purple;
+    background-color:greenyellow;
+}
+
 
 .bodyText {
     font-size:24px;
