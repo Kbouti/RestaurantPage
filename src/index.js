@@ -8,3 +8,12 @@ function sayHello() {
 
 sayHello()
 
+
+function addElement() {
+    let element = document.createElement(`div`);
+    element.innerHTML = (`Hi Kevin`)
+
+    return element;
+}
+
+document.body.appendChild(addElement());
