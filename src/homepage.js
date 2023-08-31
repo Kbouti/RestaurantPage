@@ -113,11 +113,29 @@ const homepage = () => {
                 review1.appendChild(photoHolder2);
 
                 const howie = document.createElement(`img`);
-                howie.src = `/src/images/howie.jpeg`;
-                howie.alt = `Adorable puppy standing in water bowl`;
-                howie.setAttribute(`id`, `howie`);
-                howie.setAttribute(`class`, `dog`);
-                photoHolder2.appendChild(howie);
+                    howie.src = `/src/images/howie.jpeg`;
+                    howie.alt = `Adorable puppy standing in water bowl`;
+                    howie.setAttribute(`id`, `howie`);
+                    howie.setAttribute(`class`, `dog`);
+                    photoHolder2.appendChild(howie);
+
+
+                    const review2 = document.createElement(`div`);
+                    review2.setAttribute(`id`, `review2`);
+                    review2.setAttribute(`class`, `review`);
+                    body.appendChild(review2);
+        
+                    const photoHolder3 = document.createElement(`div`);
+                        photoHolder3.setAttribute(`id`, `photoHolder3`);
+                        review2.appendChild(photoHolder3);
+        
+                        const lucy = document.createElement(`img`);
+                            lucy.src = `/src/images/lucy.jpeg`;
+                            lucy.alt = `The sweetest little puppy`;
+                            lucy.setAttribute(`id`, `lucy`);
+                            lucy.setAttribute(`class`, `dog`);
+                            photoHolder3.appendChild(lucy);
+        
 
 
 
