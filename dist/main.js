@@ -1,1 +1,1 @@
-console.log("Welcome to the console of the pizza website of the Kevdawg"),document.getElementById("content").appendChild(function(){let e=document.createElement("div");return e.innerHTML="Hi Kevin, i'm a div made by Javascript!",e.className="test",e}());
+(()=>{"use strict";console.log("pageload js loaded"),console.log("Welcome to the console of the pizza website of the Kevdawg"),document.getElementById("content").appendChild(function(){let e=document.createElement("div");return e.innerHTML="Hi Kevin, i'm a div made by Javascript!",e.className="test",e}())})();
