@@ -6,15 +6,20 @@ const homepage = () => {
 
 
     const content = document.getElementById(`content`);
-    function addElement() {
-        let element = document.createElement(`div`);
-        element.innerHTML = (`Hi Kevin, i'm a div made by Javascript!`);
-        element.className = "test";
-console.log(`something`)
-        return element;
+
+
+    function addMainContain() {
+        let mainContain = document.createElement(`div`);
+        mainContain.setAttribute(`id`, `mainContain`);
+        return mainContain;
     }
 
-    content.appendChild(addElement());
+    
+
+
+
+    content.appendChild(addMainContain());
+
 
 }
 
