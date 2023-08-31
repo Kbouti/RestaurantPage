@@ -1,5 +1,3 @@
-import _ from 'lodash';
-
 console.log(`Welcome to the console of the pizza website of the Kevdawg`);
 
 
