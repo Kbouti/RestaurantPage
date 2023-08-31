@@ -46,6 +46,43 @@ const homepage = () => {
     headerItem3.innerHTML = 'Order Now!';
     mainHeader.appendChild(headerItem3);
 
+
+    const subMenu = document.createElement(`ul`);
+        subMenu.setAttribute(`id`, `subMenu`);
+        subHeader.appendChild(subMenu);
+        const li1 = document.createElement(`li`);
+            li1.classList.add(`menu`);
+            li1.classList.add(`subMenu`);
+            li1.innerHTML = `Menu`;
+            subMenu.appendChild(li1);
+        const li2 = document.createElement(`li`);
+            li2.classList.add(`menu`);
+            li2.classList.add(`subMenu`);
+            li2.innerHTML = `Specials`;
+            subMenu.appendChild(li2);
+
+        const li3 = document.createElement(`li`);
+            li3.classList.add(`menu`);
+            li3.classList.add(`subMenu`);
+            li3.innerHTML = `Locations`;
+            subMenu.appendChild(li3);
+
+        const li4 = document.createElement(`li`);
+            li4.classList.add(`menu`);
+            li4.classList.add(`subMenu`);
+            li4.innerHTML = `Hours`;
+            subMenu.appendChild(li4);
+
+        const li5 = document.createElement(`li`);
+            li5.classList.add(`menu`);
+            li5.classList.add(`subMenu`);
+            li5.innerHTML = `Contact Us`;
+            subMenu.appendChild(li5);
+
+
+
+
+
 }
 
 export default homepage;
