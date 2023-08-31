@@ -135,7 +135,32 @@ const homepage = () => {
                             lucy.setAttribute(`id`, `lucy`);
                             lucy.setAttribute(`class`, `dog`);
                             photoHolder3.appendChild(lucy);
-        
+
+
+
+                const footer = document.createElement(`div`);
+                    footer.setAttribute(`id`, `footer`);
+                    mainContain.appendChild(footer);
+
+                    const attributions = document.createElement(`div`);
+                    attributions.setAttribute(`id`, `attributions`);
+                    footer.appendChild(attributions);
+
+                        const signature = document.createElement(`div`);
+                            signature.setAttribute(`id`, `signature`);
+                            signature.innerHTML= 'Kbouti 2023'
+                            attributions.appendChild(signature);
+
+                        const logoMakr = document.createElement(`div`);
+                            logoMakr.setAttribute(`id`, `logoMakr`);
+                            logoMakr.innerHTML = `Logo created at `;
+                            attributions.appendChild(logoMakr);
+
+                            const link = document.createElement(`a`);
+                                link.setAttribute(`href`, `https://logomakr.com/`);
+                                link.innerHTML = `logomakr.com`;
+                                logoMakr.appendChild(link);
+                        
 
 
 
