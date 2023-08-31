@@ -86,20 +86,15 @@ const homepage = () => {
                 message1.innerHTML = 'Best Pizza in Town!!!';
                 mainContent.appendChild(message1);
 
-
             const photoHolder1 = document.createElement(`div`);
                 photoHolder1.setAttribute(`id`, `photoHolder1`);
                 mainContent.appendChild(photoHolder1);
 
-                const howieImg = document.createElement(`img`);
-                    howieImg.src = `/src/images/howie.jpeg`;
-                    howieImg.alt = `Adorable puppy standing in water bowl`;
-                    howieImg.setAttribute(`id`, `howie`);
-                    howieImg.setAttribute(`class`, `dog`);
-    
-                    photoHolder1.appendChild(howieImg);
-
-
+                const counterPizza = document.createElement(`img`);
+                    counterPizza.src = `/src/images/counterTopPizza.jpeg`;
+                    counterPizza.alt = `Delicious pizza`;
+                    counterPizza.setAttribute(`id`, `counterPizza`);
+                    photoHolder1.appendChild(counterPizza);
 
             const message2 = document.createElement(`div`);
                 message2.setAttribute(`id`, `message2`);
@@ -108,7 +103,21 @@ const homepage = () => {
                 mainContent.appendChild(message2);
 
 
+        const review1 = document.createElement(`div`);
+            review1.setAttribute(`id`, `review1`);
+            review1.setAttribute(`class`, `review`);
+            body.appendChild(review1);
 
+            const photoHolder2 = document.createElement(`div`);
+                photoHolder2.setAttribute(`id`, `photoHolder2`);
+                review1.appendChild(photoHolder2);
+
+                const howie = document.createElement(`img`);
+                howie.src = `/src/images/howie.jpeg`;
+                howie.alt = `Adorable puppy standing in water bowl`;
+                howie.setAttribute(`id`, `howie`);
+                howie.setAttribute(`class`, `dog`);
+                photoHolder2.appendChild(howie);
 
 
 
@@ -117,9 +126,6 @@ const homepage = () => {
 }
 
 export default homepage;
-
-
-
 
 
 
