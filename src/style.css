@@ -78,7 +78,11 @@ li {
     background-color: var(--lightTeal);
     justify-content:flex-end;
     color:var(--red)
+    
+}
 
+#subMenu:hover{
+    cursor:pointer;
 }
 
 #counterPizza {
