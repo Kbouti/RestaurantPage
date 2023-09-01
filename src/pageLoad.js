@@ -3,6 +3,7 @@ console.log(`pageload js loaded`);
 import homepage from './homepage';
 import addMenuListener from './menu';
 import addHoursListener from './hours';
+import addContactListener from './contact';
 
 
 function initialLoad() {
@@ -10,6 +11,7 @@ function initialLoad() {
     homepage();
     addMenuListener();
     addHoursListener();
+    addContactListener();
 
     const homeBtn = document.getElementById(`homeBtn`);
         homeBtn.addEventListener(`click`, function(){

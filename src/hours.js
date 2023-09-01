@@ -3,7 +3,6 @@ const addHoursListener = () => {
     hoursBtn.addEventListener(`click`, ()=>{
         console.log(`You clicked the hours button`);
 
-        let mainContent = document.getElementById(`mainContent`);
         let body = document.getElementById(`body`);
 
         body.innerHTML = ""

@@ -3,7 +3,6 @@ const addMenuListener = () => {
     menuBtn.addEventListener(`click`, ()=>{
         console.log(`You clicked the menu button`);
 
-        let mainContent = document.getElementById(`mainContent`);
         let body = document.getElementById(`body`);
 
         body.innerHTML = "";
