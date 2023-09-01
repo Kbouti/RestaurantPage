@@ -4,13 +4,11 @@ console.log(`homepage js loaded`);
 
 const homepage = () => {
 
-
     const content = document.getElementById(`content`);
 
     const mainContain = document.createElement(`div`);
         mainContain.setAttribute(`id`, `mainContain`);
         content.appendChild(mainContain);
-
 
     const mainHeader = document.createElement(`div`);
         mainHeader.setAttribute(`id`, `mainHeader`);
@@ -30,52 +28,49 @@ const homepage = () => {
             headerItem2.appendChild(logoImage);
             mainHeader.appendChild(headerItem2);
         
-
         const headerItem3 = document.createElement('div');
-        headerItem3.classList.add(`headerItem`);
-        headerItem3.innerHTML = 'Order Now!';
-        mainHeader.appendChild(headerItem3);
+            headerItem3.classList.add(`headerItem`);
+            headerItem3.innerHTML = 'Order Now!';
+            mainHeader.appendChild(headerItem3);
 
     const subHeader = document.createElement(`div`);
-    subHeader.setAttribute(`id`, `subHeader`);
-    mainContain.appendChild(subHeader);
+        subHeader.setAttribute(`id`, `subHeader`);
+        mainContain.appendChild(subHeader);
 
     const subMenu = document.createElement(`ul`);
         subMenu.setAttribute(`id`, `subMenu`);
         subHeader.appendChild(subMenu);
+
+        const li0 = document.createElement(`li`);
+            li0.classList.add(`menu`);
+            li0.classList.add(`subMenu`);
+            li0.innerHTML = `Home`;
+            li0.setAttribute(`id`, `homeBtn`);
+            subMenu.appendChild(li0);
+
+
+
+
         const li1 = document.createElement(`li`);
             li1.classList.add(`menu`);
             li1.classList.add(`subMenu`);
             li1.innerHTML = `Menu`;
             li1.setAttribute(`id`, `menuBtn`);
             subMenu.appendChild(li1);
+
         const li2 = document.createElement(`li`);
             li2.classList.add(`menu`);
             li2.classList.add(`subMenu`);
-            li2.setAttribute(`id`, `specialsBtn`);
-            li2.innerHTML = `Specials`;
+            li2.setAttribute(`id`, `hoursBtn`);
+            li2.innerHTML = `Hours`;
             subMenu.appendChild(li2);
 
         const li3 = document.createElement(`li`);
             li3.classList.add(`menu`);
             li3.classList.add(`subMenu`);
-            li3.setAttribute(`id`, `locationsBtn`);
-            li3.innerHTML = `Locations`;
+            li3.setAttribute(`id`, `contactBtn`);
+            li3.innerHTML = `Contact Us`;
             subMenu.appendChild(li3);
-
-        const li4 = document.createElement(`li`);
-            li4.classList.add(`menu`);
-            li4.classList.add(`subMenu`);
-            li4.setAttribute(`id`, `hoursBtn`);
-            li4.innerHTML = `Hours`;
-            subMenu.appendChild(li4);
-
-        const li5 = document.createElement(`li`);
-            li5.classList.add(`menu`);
-            li5.classList.add(`subMenu`);
-            li5.setAttribute(`id`, `contactBtn`);
-            li5.innerHTML = `Contact Us`;
-            subMenu.appendChild(li5);
 
     const body = document.createElement(`div`);
         body.setAttribute(`id`, `body`);
@@ -167,11 +162,12 @@ const homepage = () => {
                                 logoMakr.appendChild(link);
                         
 
-
-
-
-
 }
+
+const addHomeListener = () =>{
+    
+}
+
 
 export default homepage;
 
