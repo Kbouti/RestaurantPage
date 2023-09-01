@@ -33,6 +33,10 @@ li {
     justify-content:space-around;
 }
 
+#headerLogo{
+    cursor:pointer;
+}
+
 .headerItem{
     font-size:28px;
     font-weight:600;
@@ -81,7 +85,7 @@ li {
     
 }
 
-#subMenu:hover{
+#subMenu li:hover{
     cursor:pointer;
 }
 
