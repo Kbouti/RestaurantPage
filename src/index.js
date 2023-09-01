@@ -4,5 +4,5 @@ import initialLoad from "./pageLoad";
 
 initialLoad();
 
-// loadPage()
+
 

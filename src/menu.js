@@ -20,10 +20,9 @@ const addMenuListener = () => {
             bodyMenu.appendChild(menuTitle);
 
 
-        
-
     })
 }
-
-
 export default addMenuListener;
+
+
+

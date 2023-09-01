@@ -163,12 +163,6 @@ const homepage = () => {
                         
 
 }
-
-const addHomeListener = () =>{
-    
-}
-
-
 export default homepage;
 
 
