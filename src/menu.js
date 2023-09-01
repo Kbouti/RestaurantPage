@@ -6,9 +6,11 @@ const addMenuListener = () => {
         let mainContent = document.getElementById(`mainContent`);
         let body = document.getElementById(`body`);
 
-        body.removeChild(mainContent);
-        body.removeChild(review1);
-        body.removeChild(review2);
+        body.innerHTML = "";
+
+        // body.removeChild(mainContent);
+        // body.removeChild(review1);
+        // body.removeChild(review2);
 
         const bodyMenu = document.createElement(`div`);
             bodyMenu.setAttribute(`id`, `bodyMenu`);

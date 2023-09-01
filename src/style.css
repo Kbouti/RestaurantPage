@@ -142,6 +142,6 @@ li {
     grid-column-end:span 2;
     color: var(--red)
 }
-#menuTitle{
-
+img {
+    border-radius: 10px;
 }

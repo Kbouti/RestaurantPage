@@ -6,14 +6,12 @@ const addHoursListener = () => {
         let mainContent = document.getElementById(`mainContent`);
         let body = document.getElementById(`body`);
 
-        body.removeChild(mainContent);
-        body.removeChild(review1);
-        body.removeChild(review2);
+        body.innerHTML = ""
 
-        const bodyHours = document.createElement(`div`);
-        bodyHours.setAttribute(`id`, `bodyHours`);
-        bodyHours.setAttribute(`class`, `subPage`);
-            body.appendChild(bodyHours);
+            const bodyHours = document.createElement(`div`);
+                bodyHours.setAttribute(`id`, `bodyHours`);
+                bodyHours.setAttribute(`class`, `subPage`);
+                body.appendChild(bodyHours);
 
             const hoursTitle = document.createElement(`div`);
                 hoursTitle.setAttribute(`id`, `hoursTitle`);
