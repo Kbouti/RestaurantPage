@@ -47,28 +47,33 @@ const homepage = () => {
             li1.classList.add(`menu`);
             li1.classList.add(`subMenu`);
             li1.innerHTML = `Menu`;
+            li1.setAttribute(`id`, `menuBtn`);
             subMenu.appendChild(li1);
         const li2 = document.createElement(`li`);
             li2.classList.add(`menu`);
             li2.classList.add(`subMenu`);
+            li1.setAttribute(`id`, `specialsBtn`);
             li2.innerHTML = `Specials`;
             subMenu.appendChild(li2);
 
         const li3 = document.createElement(`li`);
             li3.classList.add(`menu`);
             li3.classList.add(`subMenu`);
+            li1.setAttribute(`id`, `locationsBtn`);
             li3.innerHTML = `Locations`;
             subMenu.appendChild(li3);
 
         const li4 = document.createElement(`li`);
             li4.classList.add(`menu`);
             li4.classList.add(`subMenu`);
+            li1.setAttribute(`id`, `hoursBtn`);
             li4.innerHTML = `Hours`;
             subMenu.appendChild(li4);
 
         const li5 = document.createElement(`li`);
             li5.classList.add(`menu`);
             li5.classList.add(`subMenu`);
+            li1.setAttribute(`id`, `contactBtn`);
             li5.innerHTML = `Contact Us`;
             subMenu.appendChild(li5);
 
