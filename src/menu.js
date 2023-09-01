@@ -12,12 +12,21 @@ const addMenuListener = () => {
 
         const bodyMenu = document.createElement(`div`);
             bodyMenu.setAttribute(`id`, `bodyMenu`);
+            bodyMenu.setAttribute(`class`, `subPage`);
             body.appendChild(bodyMenu);
 
-        const menuTitle = document.createElement(`div`);
-            menuTitle.setAttribute(`id`, `menuTitle`);
-            menuTitle.innerHTML = `Menu`;
-            bodyMenu.appendChild(menuTitle);
+            const menuTitle = document.createElement(`div`);
+                menuTitle.setAttribute(`id`, `menuTitle`);
+                menuTitle.setAttribute(`class`, `bodyText`);
+                menuTitle.innerHTML = `Menu`;
+                bodyMenu.appendChild(menuTitle);
+
+            const menuContent = document.createElement(`div`);
+            menuContent.setAttribute(`id`, `menuContent`);
+            menuContent.setAttribute(`class`, `bodySubtext`);
+
+            menuContent.innerHTML = `This is where all the pizza options would go`;
+            bodyMenu.appendChild(menuContent);
 
 
     })
