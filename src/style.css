@@ -124,3 +124,12 @@ li {
 .review div {
 
 }
+#bodyMenu{
+    display:flex;
+    justify-content:center;
+    grid-column-end:span 2;
+    color: var(--red)
+}
+#menuTitle{
+
+}
