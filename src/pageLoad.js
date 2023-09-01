@@ -2,14 +2,14 @@ console.log(`pageload js loaded`);
 
 import homepage from './homepage';
 import addMenuListener from './menu';
+import addHoursListener from './hours';
 
-import addHomeListener from './menu';
 
 function initialLoad() {
     console.log(`initial load function run`);
     homepage();
     addMenuListener();
-    addHomeListener();
+    addHoursListener();
 
     const homeBtn = document.getElementById(`homeBtn`);
         homeBtn.addEventListener(`click`, function(){
