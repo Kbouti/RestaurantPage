@@ -19,7 +19,7 @@ const addHoursListener = () => {
                 bodyHours.appendChild(hoursTitle);
 
             const hoursContent = document.createElement(`div`);
-            hoursContent.setAttribute(`id`, `menuContent`);
+            hoursContent.setAttribute(`id`, `hoursContent`);
             hoursContent.setAttribute(`class`, `bodySubtext`);
 
             hoursContent.innerHTML = `This place isn't actually open for business.`;
