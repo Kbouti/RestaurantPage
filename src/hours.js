@@ -22,7 +22,16 @@ const addHoursListener = () => {
             hoursContent.setAttribute(`id`, `hoursContent`);
             hoursContent.setAttribute(`class`, `bodySubtext`);
 
-            hoursContent.innerHTML = `This place isn't actually open for business.`;
+            const mon = document.createElement(`div`);
+            const tue = document.createElement(`div`);
+            const wed = document.createElement(`div`);
+            const thu = document.createElement(`div`);
+            const fri = document.createElement(`div`);
+            const sat = document.createElement(`div`);
+            const sun = document.createElement(`div`);
+
+            const days = [];
+
             bodyHours.appendChild(hoursContent);
 
 

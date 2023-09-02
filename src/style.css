@@ -145,3 +145,11 @@ li {
 img {
     border-radius: 10px;
 }
+
+#hoursContent {
+    background-color: var(--lightTeal);
+    color:var(--red);
+    border-radius: 10px;
+    border: 4px solid var(--darkTeal);
+    height: 30vh;
+}
