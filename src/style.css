@@ -151,8 +151,8 @@ img {
     color:var(--red);
     border-radius: 10px;
     border: 4px solid var(--darkTeal);
-    height: 40vh;
-    width: 40vh;
+    height: 400px;
+    width: 400px;
 
     display:flex;
     flex-direction:column;
