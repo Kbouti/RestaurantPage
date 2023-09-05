@@ -99,7 +99,7 @@ const homepage = () => {
             const message2 = document.createElement(`div`);
                 message2.setAttribute(`id`, `message2`);
                 message2.setAttribute(`class`, `bodyText`);
-                message2.innerHTML = `Don't just take our word for it...`;
+                message2.innerHTML = `Pics of our favorite customers:`;
                 mainContent.appendChild(message2);
 
 
