@@ -129,12 +129,12 @@ const homepage = () => {
                         photoHolder3.setAttribute(`id`, `photoHolder3`);
                         review2.appendChild(photoHolder3);
         
-                        const lucy = document.createElement(`img`);
-                            lucy.src = `/src/images/lucy.jpeg`;
-                            lucy.alt = `The sweetest little puppy`;
-                            lucy.setAttribute(`id`, `lucy`);
-                            lucy.setAttribute(`class`, `dog`);
-                            photoHolder3.appendChild(lucy);
+                        const sassy = document.createElement(`img`);
+                            sassy.src = `/src/images/sassy.jpeg`;
+                            sassy.alt = `The sweetest little puppy`;
+                            sassy.setAttribute(`id`, `sassy`);
+                            sassy.setAttribute(`class`, `dog`);
+                            photoHolder3.appendChild(sassy);
 
 
 
