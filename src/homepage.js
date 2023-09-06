@@ -16,7 +16,7 @@ const homepage = () => {
 
         const headerItem1 = document.createElement('div');
             headerItem1.classList.add(`headerItem`);
-            headerItem1.innerHTML = '215-327-1557';
+            headerItem1.innerHTML = '215-555-1557';
             mainHeader.appendChild(headerItem1);
 
         const headerItem2 = document.createElement('div');
