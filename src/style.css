@@ -172,3 +172,7 @@ img {
 .dayHour {
     margin:8px;
 }
+
+#orderNow {
+    cursor:pointer;
+}

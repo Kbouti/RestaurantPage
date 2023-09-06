@@ -31,6 +31,7 @@ const homepage = () => {
         const headerItem3 = document.createElement('div');
             headerItem3.classList.add(`headerItem`);
             headerItem3.innerHTML = 'Order Now!';
+            headerItem3.setAttribute(`id`, `orderNow`)
             headerItem3.addEventListener(`click`, function(){
                 console.log(`you clicked the order now icon`);
                 alert(`You can't order from here. This isn't a real pizza place`);
