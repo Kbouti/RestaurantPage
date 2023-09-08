@@ -24,6 +24,8 @@ module.exports = {
 };
 
 
+//9/8 spent some time on scratch and cs50 project 0 
+
 
 // I'm working on the restaurant page project and I'm struggling to publish my project on github. 
 // When accessed through dist/index.html my site works fine and has css and images, bundled with webpack. 
