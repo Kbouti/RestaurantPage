@@ -1,9 +1,11 @@
 
 console.log(`homepage js loaded`);
 
-import kevdogPizzaLogo from 'images/kevdogPizzaLogo.png';
-import sassy from 'images/sassy.jpeg';
-import howie from 'src/images/howie.jpeg';
+import kevdogPizzaLogo from './images/kevdogPizzaLogo.png';
+
+import counterTopPizza from './images/counterTopPizza.jpeg';
+import sassy from './images/sassy.jpeg';
+import howie from './images/howie.jpeg';
 
 
 
@@ -108,7 +110,17 @@ const homepage = () => {
                 mainContent.appendChild(photoHolder1);
 
                 const counterPizza = document.createElement(`img`);
-                    counterPizza.src = `/src/images/counterTopPizza.jpeg`;
+
+
+
+
+                    counterPizza.src = counterTopPizza;
+
+
+
+
+
+
                     counterPizza.alt = `Delicious pizza`;
                     counterPizza.setAttribute(`id`, `counterPizza`);
                     photoHolder1.appendChild(counterPizza);
@@ -129,12 +141,12 @@ const homepage = () => {
                 photoHolder2.setAttribute(`id`, `photoHolder2`);
                 review1.appendChild(photoHolder2);
 
-                const howie = document.createElement(`img`);
-                    howie.src = `/src/images/howie.jpeg`;
-                    howie.alt = `Adorable puppy standing in water bowl`;
-                    howie.setAttribute(`id`, `howie`);
-                    howie.setAttribute(`class`, `dog`);
-                    photoHolder2.appendChild(howie);
+                const howieImg = document.createElement(`img`);
+                    howieImg.src = howie;
+                    howieImg.alt = `Adorable puppy standing in water bowl`;
+                    howieImg.setAttribute(`id`, `howie`);
+                    howieImg.setAttribute(`class`, `dog`);
+                    photoHolder2.appendChild(howieImg);
 
 
                     const review2 = document.createElement(`div`);
@@ -146,12 +158,22 @@ const homepage = () => {
                         photoHolder3.setAttribute(`id`, `photoHolder3`);
                         review2.appendChild(photoHolder3);
         
-                        const sassy = document.createElement(`img`);
-                            sassy.src = `/src/images/sassy.jpeg`;
-                            sassy.alt = `The sweetest little puppy`;
-                            sassy.setAttribute(`id`, `sassy`);
-                            sassy.setAttribute(`class`, `dog`);
-                            photoHolder3.appendChild(sassy);
+                        const sassyImg = document.createElement(`img`);
+
+
+
+
+
+                           sassyImg.src = sassy;
+
+
+
+
+
+                            sassyImg.alt = `The sweetest little puppy`;
+                            sassyImg.setAttribute(`id`, `sassy`);
+                            sassyImg.setAttribute(`class`, `dog`);
+                            photoHolder3.appendChild(sassyImg);
 
 
 
