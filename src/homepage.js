@@ -1,6 +1,11 @@
 
 console.log(`homepage js loaded`);
 
+import kevdogPizzaLogo from 'src/images/kevdogPizzaLogo.png';
+import sassy from 'src/images/sassy.jpeg';
+import howie from 'src/images/howie.jpeg';
+
+
 
 const homepage = () => {
 
@@ -23,7 +28,14 @@ const homepage = () => {
             headerItem2.setAttribute(`id`, `headerLogo`);
 
         const logoImage = document.createElement('img');
-            logoImage.src = "/src/images/kevdogPizzaLogo.png";
+
+
+
+
+            // logoImage.src = "/src/images/kevdogPizzaLogo.png";
+            logoImage.src = kevdogPizzaLogo;
+
+
             logoImage.alt = "Pizza By Kevdog";
             headerItem2.appendChild(logoImage);
             mainHeader.appendChild(headerItem2);

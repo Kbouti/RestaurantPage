@@ -4,6 +4,8 @@ import homepage from './homepage';
 import addMenuListener from './menu';
 import addHoursListener from './hours';
 import addContactListener from './contact';
+
+
 import "./style.css";
 
 function initialLoad() {
