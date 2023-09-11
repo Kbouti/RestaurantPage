@@ -1,8 +1,8 @@
 
 console.log(`homepage js loaded`);
 
-import kevdogPizzaLogo from 'src/images/kevdogPizzaLogo.png';
-import sassy from 'src/images/sassy.jpeg';
+import kevdogPizzaLogo from 'images/kevdogPizzaLogo.png';
+import sassy from 'images/sassy.jpeg';
 import howie from 'src/images/howie.jpeg';
 
 
