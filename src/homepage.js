@@ -30,14 +30,7 @@ const homepage = () => {
             headerItem2.setAttribute(`id`, `headerLogo`);
 
         const logoImage = document.createElement('img');
-
-
-
-
-            // logoImage.src = "/src/images/kevdogPizzaLogo.png";
             logoImage.src = kevdogPizzaLogo;
-
-
             logoImage.alt = "Pizza By Kevdog";
             headerItem2.appendChild(logoImage);
             mainHeader.appendChild(headerItem2);
@@ -66,9 +59,6 @@ const homepage = () => {
             li0.innerHTML = `Home`;
             li0.setAttribute(`id`, `homeBtn`);
             subMenu.appendChild(li0);
-
-
-
 
         const li1 = document.createElement(`li`);
             li1.classList.add(`menu`);
@@ -110,17 +100,7 @@ const homepage = () => {
                 mainContent.appendChild(photoHolder1);
 
                 const counterPizza = document.createElement(`img`);
-
-
-
-
                     counterPizza.src = counterTopPizza;
-
-
-
-
-
-
                     counterPizza.alt = `Delicious pizza`;
                     counterPizza.setAttribute(`id`, `counterPizza`);
                     photoHolder1.appendChild(counterPizza);
@@ -159,17 +139,7 @@ const homepage = () => {
                         review2.appendChild(photoHolder3);
         
                         const sassyImg = document.createElement(`img`);
-
-
-
-
-
-                           sassyImg.src = sassy;
-
-
-
-
-
+                            sassyImg.src = sassy;
                             sassyImg.alt = `The sweetest little puppy`;
                             sassyImg.setAttribute(`id`, `sassy`);
                             sassyImg.setAttribute(`class`, `dog`);
